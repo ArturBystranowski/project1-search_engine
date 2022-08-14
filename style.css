@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&family=Dancing+Script:wght@400;700&family=DynaPuff:wght@400;700&display=swap");
+
+/* font-family: "Caveat", cursive;
+font-family: "Dancing Script", cursive;
+font-family: "DynaPuff", cursive; */
+
+* {
+	font-family: "Caveat", cursive;
+	font-size: 20px;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+}
+
+.wrapper {
+	width: 600px;
+	background-color: #fff;
+	box-shadow: 0 0 10px;
+}
+
+.header {
+	display: flex;
+	justify-content: flex-end;
+	flex-direction: column;
+	position: relative;
+	height: 200px;
+	padding: 20px 40px;
+	background-image: url(bar-cover.jpg);
+	background-position: center;
+	background-size: cover;
+	z-index: 0;
+}
+
+.shadow {
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.2);
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: -2;
+	padding: 30px;
+}
+
+h1 {
+	color: #fff;
+	font-size: 50px;
+	font-family: "DynaPuff", cursive;
+	margin-bottom: 30px;
+}
+
+.search {
+	padding: 5px 20px;
+	margin-bottom: 40px;
+	width: 100%;
+	font-weight: 700px;
+	font-size: 24px;
+	background-color: rgba(255, 255, 255, 0.9);
+}
+
+.drink-list {
+	padding: 20px 40px;
+}
+
+h2 {
+	padding: 20px 0;
+	font-size: 24px;
+}
+
+ul {
+	padding-bottom: 30px;
+	list-style: none;
+	padding-bottom: 30px;
+}
+
+li {
+	padding: 0 10px;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+li:last-child {
+	border-bottom: none;
+}
